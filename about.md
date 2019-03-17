@@ -4,15 +4,4 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+My name is Antonio Maiorano, aka Daroou2, and I'm a programmer. I've been writing code since about 1997, mostly games, and mostly in C++. In recent years, I've written a couple of emulators: first a NES emulator, [nes-emu](https://github.com/amaiorano/nes-emu), and then an emulator for the somewhat obscure vector-based console known as the Vectrex, named [Vectrexy](https://github.com/amaiorano/vectrexy). You can actually watch me develop Vectrexy [live on Twitch](https://www.twitch.tv/daroou2), all of which has been archived on [my YouTube channel](https://www.youtube.com/channel/UCvGInSOEQnf2ms4n4Q9dXdQ).
