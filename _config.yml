@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my blog, where you'll mainly find stuff related to programming.
   All thoughts and opinions are my own, and do not represent those of my employer.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: https://amaiorano.github.io
+url: https://blog.amaiorano.io
 twitter_username: antoniomaiorano
 github_username:  amaiorano
 youtube_username: daroou2
