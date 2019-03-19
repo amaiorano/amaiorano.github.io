@@ -1,1 +1,1 @@
-Jekyll source for my blog at: [https://amaiorano.github.io](https://amaiorano.github.io)
+Jekyll source for my blog at: [https://blog.amaiorano.io/](https://blog.amaiorano.io/)
