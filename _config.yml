@@ -29,7 +29,7 @@ twitch_username: daroou2
 
 # For disqus to work, url must be correctly set
 disqus:
-  shortname: https-amaiorano-github-io
+  shortname: https-blog-amaiorano-io
 
 # Build settings
 markdown: kramdown
