@@ -40,6 +40,10 @@ plugins:
 show_excerpts: true
 google_analytics: UA-NNNNNNNN-N
 
+header_pages:
+  - tags.md
+  - about.md
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Virtual Functions in C"
-categories: Programming
+title:  Virtual Functions in C
+tags: [programming]
 comments: true
 ---
 NOTE: I first wrote this post on [Blogspot](http://vgcoding.blogspot.com/2014/03/virtual-functions-in-c.html) before moving it here.
