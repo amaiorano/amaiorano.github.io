@@ -3,13 +3,12 @@ layout: post
 title:  Virtual Functions in C
 tags: [programming]
 comments: true
+excerpt_separator: <!-- end_excerpt -->
 ---
-NOTE: I first wrote this post on [Blogspot](http://vgcoding.blogspot.com/2014/03/virtual-functions-in-c.html) before moving it here.
-
-## A Motivating Discussion
+(NOTE: I first wrote this post on [Blogspot](http://vgcoding.blogspot.com/2014/03/virtual-functions-in-c.html) before moving it here)
 
 A good friend of mine, Ken, has been giving interviews at his work, and expressed how many candidates struggled with basic questions about object-oriented programming in C++. He said they would be able to explain concepts like inheritance and polymorphism, but would choke when asked, for instance, "Why is the virtual keyword necessary? Why aren't all functions automatically virtual?".
-
+<!-- end_excerpt -->
 There are a couple of valid answers to this question. One of them is related to software design: if a function is non-virtual in a base class, it cannot and should not be overridden in child classes. The other answer is related to performance: virtual functions are more costly to invoke than non-virtuals (via a base class pointer or reference). This second answer is one that interests me more because I believe many programmers don't really understand what makes virtual functions more costly.
 
 When I first learned about virtual functions in C++, I remember being really impressed with this feature, because accomplishing something similar in C wasn't easy. A fairly simple form of polymorphism is possible in C by using structs of function pointers that would be set at runtime; good examples of these can be seen in [Quake 2's source code](https://github.com/id-Software/Quake-2) (see [client/ref.h](https://github.com/id-Software/Quake-2/blob/master/client/ref.h)) where they are used to polymorphically invoke rendering functions via OpenGL or the software renderer. However, to mimic C++ inheritance and virtual functions in C is another story.
