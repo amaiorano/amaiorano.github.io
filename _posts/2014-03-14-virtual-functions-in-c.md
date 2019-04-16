@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Virtual Functions in C
+title: Virtual Functions in C
 tags: [programming]
 comments: true
 excerpt_separator: <!-- end_excerpt -->
