@@ -21,7 +21,7 @@ Here's the chip I removed and needed to replace:
 
 ![](/assets/images/nes-controller-repair/IMG_7532.jpg)
 
-I ordered a pair of new ones off eBay for about $1.30 CAD. I searched for "4021B shift register 16 pin", and ended up buying this:
+I ordered a pair of new ones off eBay for about $1.30 CAD (about $1 USD). I searched for "4021B shift register 16 pin", and ended up buying this:
 
 ![](/assets/images/nes-controller-repair/ebay_shift_register.jpg)
 
