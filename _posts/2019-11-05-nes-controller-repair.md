@@ -56,3 +56,4 @@ Gave it a test, and it worked perfectly:
 ![](/assets/images/nes-controller-repair/IMG_7644.jpg)
 
 This was an easy fix, and very cheap. If you've got a controller that isn't working, I'd definitely recommend trying to replace the shift register before chucking it in the garbage.
+
