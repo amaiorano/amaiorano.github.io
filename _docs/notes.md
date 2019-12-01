@@ -2,13 +2,11 @@
 
 ## Fix image orientation
 
-sudo apt install jhead
+Download exiftool: https://exiftool.org
 
-First run with -autorot on the image:
+Remove orientation info from EXIF metadata for all images:
 
-jhead -autorot IMG_7386.jpg
-
-Then, rotate the image using whatever photo editor (Photos App on Windows). For some reason, rotating the image clockwise from what it should be seems to do the trick.
+exiftool.exe -Orientation= -n -overwrite_original *
 
 ## Resize images
 
