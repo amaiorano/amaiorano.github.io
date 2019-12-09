@@ -1,5 +1,16 @@
 # Notes
 
+## Setup
+
+Install Ruby (without Devkit): https://www.ruby-lang.org/en/
+
+Install Jekyll: https://jekyllrb.com/
+gem install bundler jekyll
+
+cd amaiorano.github.io
+bundle install
+serve.bat
+
 ## Resize images
 
 ```
