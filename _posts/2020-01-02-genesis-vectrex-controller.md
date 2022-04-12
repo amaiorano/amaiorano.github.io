@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Genesis Vectrex Controller"
-tags: [electronics, Vectrex]
+tags: [electronics, mod, Vectrex]
 comments: true
 ---
 
