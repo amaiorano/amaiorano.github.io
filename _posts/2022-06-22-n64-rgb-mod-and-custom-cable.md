@@ -38,7 +38,7 @@ As per the instructions, I added some wire tape to cover up a portion of the bot
 
 ![](/assets/images/n64-rgb-mod-and-custom-cable/IMG_5765.jpg)
 
-Then I placed it over the multiout pins and soldered it in place, making sure to use flux to ensure a solid connection:
+Then I placed it over the multiout pins and soldered it in place, using flux to ensure a solid connection:
 
 ![](/assets/images/n64-rgb-mod-and-custom-cable/IMG_5766.jpg)
 
@@ -78,7 +78,7 @@ Although this came later while testing, I'll mention it here: the mod board uses
 
 ![](/assets/images/n64-rgb-mod-and-custom-cable/IMG_5819.jpg)
 
-With the mod in place, it was time to close up the console. The only thing is that the metal shielding now comes into contact with the new mod board, making it difficult to close, and possibly resulting in shorts:
+With the mod in place, it was time to close up the console. However, the metal shielding now comes into contact with the new mod board, making it difficult to close, and possibly resulting in shorts:
 
 ![](/assets/images/n64-rgb-mod-and-custom-cable/IMG_5884.jpg)
 
@@ -117,7 +117,7 @@ Here's a table of the final design for how I wired everything up (see pinouts fo
 | Left Audio  | 12       |         |            | White     | White       |
 | GND         | 6        |         |            | GND       | Brown       |
 
-The Cable Color column is not really relevant to how to wire this up - I just assigned colors based on the cable I ordered from AliExpress. I left it here, though, as it will help to understand the pictures below.
+The Cable Color column is not really relevant to how to wire this up - I just assigned colors based on the cable I ordered from AliExpress. I left it here, though, to help to understand the pictures below.
 
 One thing to note: in creating my cable, I went through a few different iterations of determining how to best connect sync from the SNES multiout to my GBS-control via VGA pin 13. I had three options: CSYNC (pin 3), composite video (pin 9), or S-video Y (pin 7). CSYNC is the pure sync signal from the N64 that I connected to the multiout as part of the RGB mod install. This is a TTL-level signal, which means that a 480 ohm resistor in series is required to attenuate the signal down to expected levels for most TVs and the gbs-control. The other two are video signals that also carry sync in them. After testing out each option, I found that using S-video Y worked best with my gbs-control, resulting in no sync loss, and no audio interference. I mention this, though, as it may not be the best solution for everyone.
 
@@ -188,7 +188,7 @@ I must say that I'm quite happy with how this side ended up. Here's what it look
 
 #### Multiout End Attempt #1
 
-For the SNES multiout end, initially, to test things out, I actually soldered Dupont cables so that I could test things with a breadboard, like capacitor values and resistors. Also, the tantalum caps took a little longer to receive than the rest of the parts, so this way I could at least use through-hole caps:
+For the SNES multiout end, initially, to test things out, I actually soldered Dupont cables so that I could test things with a breadboard, like capacitor values and resistors, and what sync source to use. Also, the tantalum caps took a little longer to receive than the rest of the parts, so this way I could at least use through-hole caps:
 
 ![](/assets/images/n64-rgb-mod-and-custom-cable/IMG_5832.jpg)
 
@@ -250,7 +250,7 @@ I figured that the reason the cables came undone might be because the caps were 
 
 ![](/assets/images/n64-rgb-mod-and-custom-cable/IMG_6101.jpg)
 
-One good thing about the glue, I told myself, was that at least the exposed pads and wires could not be shorted against.
+One good thing about the glue, I told myself, was that at least the exposed pads and wires would not be shorted against.
 
 I also decided to forgo the clever dual tie-wrap strain relief, figuring it was just too tight in the shell, and that might have also contributed to the flakiness. Instead, I wrapped up the cable in loads of wire tape, until it fit very snugly into the shell:
 
@@ -264,7 +264,7 @@ I also decided to forgo the clever dual tie-wrap strain relief, figuring it was 
 
 This is how my cable ended up. However, I will say that I really don't like having this wire tape sticking out, and it doesn't feel like a permanent solution, knowing that wire tape eventually softens and often comes unstuck after a while.
 
-I think the real reason my first attempt failed was because I cut the RGB wires coming out of the cable too short - especially the red one. They were not long enough to allow for any movement of the cable. If I were to redo this, I'd go with my first attempt, make the RGB wires longer, and maybe put hot glue around twist-tie end to make it thicker so that it doesn't move as much inside the shell.
+I think the real reason my first attempt failed was because I cut the RGB wires coming out of the cable too short - especially the red one. They were not long enough to allow for any movement of the cable. If I were to redo this, I'd go with my first attempt, but make the RGB wires longer, and maybe put hot glue around twist-tie end to make it thicker so that it doesn't move as much inside the shell.
 
 ### Results
 
