@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How I got hired by Google
-tags: [job]
+tags: [Job]
 comments: true
 ---
 

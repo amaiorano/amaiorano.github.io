@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "BlueRetro NES Adapter"
-tags: [electronics, mod]
+tags: [Electronics, BlueRetro, NES]
 comments: true
 ---
 

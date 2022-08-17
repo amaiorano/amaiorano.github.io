@@ -1,7 +1,7 @@
 ---
 layout: post
 title: NES Controller Repair
-tags: [electronics, repair]
+tags: [Electronics, Repair]
 comments: true
 ---
 

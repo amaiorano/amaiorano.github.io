@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "BlueRetro N64 Adapter"
-tags: [electronics, mod]
+tags: [Electronics, BlueRetro, N64]
 comments: true
 ---
 

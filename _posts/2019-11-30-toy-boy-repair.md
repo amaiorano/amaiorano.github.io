@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Toy Bow Repair
-tags: [repair]
+tags: [Repair]
 comments: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "gbs-control"
-tags: [electronics, mod]
+title: "Making a gbs-control video scaler"
+tags: [Electronics, Mods, gbs-control]
 comments: true
 ---
 

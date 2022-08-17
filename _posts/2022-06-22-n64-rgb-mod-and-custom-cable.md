@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "N64 RGB Mod and Custom Cable"
-tags: [electronics, mod]
+tags: [Electronics, Mods, N64]
 comments: true
 ---
 In this post, I'll go over how I RGB-modded my N64, and how I built a custom cable to connect it to my [gbs-control]({% post_url 2022-04-01-gbs-control %}).

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "BlueRetro Receiver and PSX/PS2 Adapter"
-tags: [electronics, mod]
+tags: [Electronics, BlueRetro, PS1]
 comments: true
 ---
 After [modding my PS1]({% post_url 2022-03-31-psnee-mod %}) and [improving its output]({% post_url 2022-04-02-ps1-vga-mod %}), the last thing I wanted to fix was having to deal with the annoying controller cables. As much as I love old consoles, I do not love having to sit close, or untangle a bunch of cables. I considered buying an 8bitdo wireless controller, but then I heard about a really cool project named [BlueRetro](https://github.com/darthcloud/BlueRetro) by [darthcloud64](https://twitter.com/darthcloud64).

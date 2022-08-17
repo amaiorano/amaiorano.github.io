@@ -1,7 +1,7 @@
 ---
 layout: post
 title: NES RF Adapter Repair
-tags: [electronics, repair]
+tags: [Electronics, Repair, NES]
 comments: true
 ---
 

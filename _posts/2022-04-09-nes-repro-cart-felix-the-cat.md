@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A better NES Repro Cart: Felix the Cat"
-tags: [electronics, repair]
+tags: [Electronics, Repair, NES]
 comments: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Electronics and Restoration
-tags: [electronics, repair]
+tags: [Electronics, Repair]
 comments: true
 ---
 

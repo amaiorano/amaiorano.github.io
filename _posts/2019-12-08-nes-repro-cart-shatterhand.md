@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "My first NES Repro Cart: Shatterhand"
-tags: [electronics, mod, NES]
+tags: [Electronics, Mods, NES]
 comments: true
 ---
 

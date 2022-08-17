@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Another BlueRetro PSX/PS2 Adapter"
-tags: [electronics, mod]
+tags: [Electronics, BlueRetro, PS2]
 comments: true
 ---
 After [building a BlueRetro adapter for my PS1]({% post_url 2022-04-23-blueretro-and-psx-adapter %}), I decided to build a second one for my PS2 so that I wouldn't have to disconnect and reconnect the adapter between the two consoles. Normally I wouldn't bother writing about this, as it should have been the same process as the first, but I ran into a surprising snag that I thought worth sharing. I also improved on the wiring by connecting pins that I had ignored in my first build.
