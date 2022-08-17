@@ -17,8 +17,9 @@ title: amaiorano::blog
 author: Antonio Maiorano
 email: amaiorano@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to my blog, where you'll mainly find stuff related to programming.
-  All thoughts and opinions are my own, and do not represent those of my employer.
+  Welcome to my blog, where you'll mainly find stuff related to programming, electronics,
+  and retro console modding. All thoughts and opinions are my own, and do not represent
+  those of my employer.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://amaiorano.io
 twitter_username: antoniomaiorano
