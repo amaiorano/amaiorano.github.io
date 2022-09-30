@@ -266,6 +266,8 @@ This is how my cable ended up. However, I will say that I really don't like havi
 
 I think the real reason my first attempt failed was because I cut the RGB wires coming out of the cable too short - especially the red one. They were not long enough to allow for any movement of the cable. If I were to redo this, I'd go with my first attempt, but make the RGB wires longer, and maybe put hot glue around twist-tie end to make it thicker so that it doesn't move as much inside the shell.
 
+**UPDATE 2022/09/29:** I did eventually make a second cable that turned out much better! Check out [my post about it here]({% post_url 2022-09-29-multiout-custom-cable-take-2 %}).
+
 ### Results
 
 With the cable working, here are comparison shots of Mario 64 using the N64's official composite cable going straight to my TV (left) vs the custom cable I made going to the TV via the gbs-control (right):
