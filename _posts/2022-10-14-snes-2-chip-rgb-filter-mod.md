@@ -9,6 +9,10 @@ I recently restored my childhood SNES, and although I was able to use a [custom 
 
 Before diving in, I should mention that despite the 1CHIP's video quality already being very good, there are mods to improve the brightness and to bypass video output filtering. These are [covered on RetroRGB](https://www.retrorgb.com/snes1chip.html) and [ConsoleMods](https://consolemods.org/wiki/SNES:1CHIP_Mods), but there are no 2-chip mods mentioned to improve video quality there at this time. However, a user by the name of "unmaker" on the [ConsoleMods Discord](https://discord.gg/x5vEnkR4C8) made me aware of [this mod by Buttersoft](https://www.aussiearcade.com/topic/90003-snes-sfc-shvc-cpu-001-2-chip-rgb-filter-mod-video-fix/), which is a reworking of Japanese modder Torapu's initial work. Huge thanks to unmaker for all his help!
 
+
+<p class="panel-note" markdown="1">UPDATE 2023-03-07: This post covers how to mod a `SHVC-CPU-01` revision SNES. Check out [this newer post on how to mod a `SNS-CPU-RGB-02`]({% post_url 2023-03-07-snes-2-chip-rgb-filter-rgb-02 %}).</p>
+
+
 ## Parts
 
 This mod requires getting a PCB printed, populating it with a bunch of components, then wiring it up to the SNES main board after making some mods to it. I mostly followed the instructions by Buttersoft on [his post](https://www.aussiearcade.com/topic/90003-snes-sfc-shvc-cpu-001-2-chip-rgb-filter-mod-video-fix/), but with a few changes recommended by unmaker.

@@ -8,3 +8,18 @@
 .footer-col-2 { width: -webkit-calc(25% - (30px / 2)); width: calc(25% - (30px / 2)); }
 
 .footer-col-3 { width: -webkit-calc(40% - (30px / 2)); width: calc(40% - (30px / 2)); }
+
+.panel-note
+{
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  background-color: #f0f7fb;
+//   background-image: url(/assets/images/saw_blade_warning.png);
+  background-position: 5px 15px;
+  background-repeat: no-repeat;
+  border: solid 1px #3498db;
+  border-radius: 6px;
+  overflow: hidden;
+  padding: 2%;
+  min-height: 1px;
+}
