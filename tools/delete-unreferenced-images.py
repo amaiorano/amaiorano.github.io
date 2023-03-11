@@ -1,17 +1,24 @@
 # Delete unreferenced images
-# Usage: delete-unreferenced-images.py <path_to_post> <path_to_images_root>
+# Usage: delete-unreferenced-images.py <path_to_post> <path_to_image_dir>
 
-import sys
 import os
 import re
 import glob
 import tempfile
 import shutil
+import argparse
 from pathlib import Path
 from os import path
 
-post = sys.argv[1]
-img_dir = sys.argv[2]
+parser = argparse.ArgumentParser(
+    prog='delete-unreferenced-images'
+)
+parser.add_argument('post_path', help=f"path to post markdown file (e.g. {os.path.join('_posts', 'mypost.md')})")
+parser.add_argument('image_dir', help=f"path to image directory (e.g. {os.path.join('assets', 'images', 'mypost')})")
+args = parser.parse_args()
+
+post = args.post_path
+img_dir = args.image_dir
 
 def abs_resolve_path(p):
     return str(Path(path.abspath(p)).resolve())
@@ -47,8 +54,11 @@ if len(all_files) - len(post_files) != len(unreferenced_files):
 # for f in unreferenced_files:
 #     print(f)
 
-temp_dir = tempfile.mkdtemp(prefix='blog_deleted_files_')
+if len(unreferenced_files) == 0:
+    print('No unreferenced files found.')
+else:
+    temp_dir = tempfile.mkdtemp(prefix='blog_deleted_files_')
 
-print('Moving unreferenced files to {}'.format(temp_dir))
-for f in unreferenced_files:
-    shutil.move(f, temp_dir)
+    print('Moving unreferenced files to {}'.format(temp_dir))
+    for f in unreferenced_files:
+        shutil.move(f, temp_dir)
