@@ -1,6 +1,3 @@
-# Delete unreferenced images
-# Usage: delete-unreferenced-images.py <path_to_post> <path_to_image_dir>
-
 import os
 import re
 import glob
@@ -11,7 +8,9 @@ from pathlib import Path
 from os import path
 
 parser = argparse.ArgumentParser(
-    prog='delete-unreferenced-images'
+    prog='delete-unreferenced-images',
+    description='Deletes images not referenced in post from the image directory' +
+        ' (note: images are moved to a temporary directory, not actually deleted)'
 )
 parser.add_argument('post_path', help=f"path to post markdown file (e.g. {os.path.join('_posts', 'mypost.md')})")
 parser.add_argument('image_dir', help=f"path to image directory (e.g. {os.path.join('assets', 'images', 'mypost')})")
