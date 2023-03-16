@@ -19,7 +19,7 @@ Here were my design goals for this second case:
 
 * As with the HDMI case, I wanted the same reset button and status LED on the front panel.
 
-Having made the back panel a separate pice in my original design, all I had to do was design a new back panel:
+Having made the back panel a separate piece in my original design, all I had to do was design a new one:
 
 ![](/assets/images/gbs-control-case-ypbpr/YPbPr_Case_Back.jpg)
 
@@ -51,7 +51,6 @@ As before, I soldered a resistor to one of the legs of a LED:
 
 ![](/assets/images/gbs-control-case-ypbpr/IMG_9856.jpg)
 
-6
 ![](/assets/images/gbs-control-case-ypbpr/IMG_9860.jpg)
 
 One leg (green wire) is connected to D7, and the other (pink) is connected to ground:
@@ -110,15 +109,15 @@ Next I installed the reset button and audio input jacks:
 
 ![](/assets/images/gbs-control-case-ypbpr/IMG_9887.jpg)
 
-I slid the board into the case:
+I slid the board into the case and screwed it into place in the four corners:
 
 ![](/assets/images/gbs-control-case-ypbpr/IMG_9890.jpg)
 
-And soldered up the reset button:
+I soldered up the reset button:
 
 ![](/assets/images/gbs-control-case-ypbpr/IMG_9891.jpg)
 
-I screwed in the back panel:
+Then screwed in the back panel:
 
 ![](/assets/images/gbs-control-case-ypbpr/IMG_9893.jpg)
 
@@ -155,6 +154,6 @@ Success!
 
 Building this second case went a lot smoother than the first one, both because it was my second go-around, and also because I didn't have to mess around with the VGA-to-HDMI adapter.
 
-As with the first one, I would definitely make the case walls thicker so that they don't bend when pushing in cables to connect them. Another thing I would consider doing is adding some artificial weight to the case so that they don't move around so easily.
+As with the first one, I would definitely make the case walls thicker so that they don't bend when pushing in cables to connect them. Another thing I would consider doing is adding some artificial weight to the cases so that they don't move around so easily.
 
 Having said all that, I'm super happy with the final result for both cases. They look great in my setup -- definitely a lot better than the exposed PCBs screwed into blocks of wood!
