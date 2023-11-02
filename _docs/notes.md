@@ -30,6 +30,11 @@ sudo apt install imagemagick
 find . \( -iname '*.jpg' -o  -iname '*.png' \) -exec convert -auto-orient {} {} \;
 ```
 
+## Convert HEIC files to jpg
+
+Use this Python script: https://github.com/saschiwy/HeicConverter/blob/main/heicConverter.py
+CD into the directory with the HEIC files, and run the script from there.
+
 ## Order posts on the same day
 
 Add a 'date' field to the front matter, set the correct date, but for the time, set 12:00:0n and make n = 0, 1, 2, etc.
