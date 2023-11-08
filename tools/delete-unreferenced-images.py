@@ -34,7 +34,7 @@ for line in open(post):
         post_files.add(abs_resolve_path(root_path + path.sep + img_file))
 
 # Find all files in img_dir
-all_files = set([abs_resolve_path(f) for f in glob.glob(img_dir + path.sep + "*.*", recursive=False)])
+all_files = set([abs_resolve_path(f) for f in glob.glob(img_dir + path.sep + "**/*.*", recursive=True)])
 
 # print("post_files: {}\n".format(post_files))
 # print("all_files: {}\n".format(all_files))
