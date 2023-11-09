@@ -260,3 +260,5 @@ The picture quality is really quite good!
 Of course, my opinion on the gbs-control hasn't changed since the first one I build. It's an excellent scaler, especially for the price!
 
 If this post helps you to build one of your own, then please let me know!
+
+Also check out my posts about how I made gbs-control cases [here]({% post_url 2023-03-14-gbs-control-case-hdmi %}) and [here]({% post_url 2023-03-15-gbs-control-case-ypbpr %}).
