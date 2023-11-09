@@ -24,7 +24,7 @@ Note that I highly recommend getting a V4.0 GBS8200. Other [variants](https://ra
 
 ### GBS8200 Prep
 
-The first thing we need to do is make some modifications to the GBS800 board itself. We start by [removing the three RGB input potentiometers](https://ramapcsx2.github.io/gbs-control/Wiki/RGB-Potentiometers.html). These pots can be used to tweak the brightness of the RGB values coming in on the DB15 input. This step is technically not required, but even with the pots turned all the way down, they still apply a little resistance, making the video output slightly darker.
+The first thing we need to do is make some modifications to the GBS8200 board itself. We start by [removing the three RGB input potentiometers](https://ramapcsx2.github.io/gbs-control/Wiki/RGB-Potentiometers.html). These pots can be used to tweak the brightness of the RGB values coming in on the DB15 input. This step is technically not required, but even with the pots turned all the way down, they still apply a little resistance, making the video output slightly darker.
 
 These are the caps we want to remove:
 
