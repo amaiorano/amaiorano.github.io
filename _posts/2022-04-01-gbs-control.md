@@ -9,11 +9,13 @@ I've been playing most of my retro consoles on my 20" CRT, which has been great,
 
 The project is called [gbs-control](https://github.com/ramapcsx2/gbs-control), and it's basically a mod of the GBS8200, a cheap scaler that was apparently developed for arcade owners to convert their cabinets from using CRTs to LCD panels. The scaler itself is apparently not very good on its own, but [Robert Neumann](https://github.com/ramapcsx2) developed an open-source firmware that you can flash on the popular (and cheap) ESP8266 microcontroller, and wire up to a GBS8200 to take control of it and make it a much better scaler. Check out the [README](https://github.com/ramapcsx2/gbs-control#readme) for more details.
 
+<p class="panel-note" markdown="1">UPDATE 2023-11-07: For a more in-depth install, check out my [more recent post on building a gbs-control]({% post_url 2023-11-07-gbs-control-take-2 %}).</p>
+
 ## The Build
 
 I ordered the parts I needed:
 
-* GBS800 board (eBay $22 USD)
+* GBS8200 board (eBay $22 USD)
 * ESP8266 board (AliExpress $4 USD)
 * Si5351A Clock Breakout Board (AliExpress $4 USD)
 * 0805 SMD 10uF caps (AliExpress $2 USD for 100 pcs)
