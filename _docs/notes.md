@@ -11,17 +11,35 @@ cd amaiorano.github.io
 bundle install
 serve.bat
 
+
+## Resize images
+
+```
+.\tools\resize-images.py --width 1024 --height 768 .\assets\images\<subdir>
+```
+
+Old way:
+```
+sudo apt-get install imagemagick 
+mogrify -path . -resize 1024x768 *.jpg
+```
+
+## Copy list of images as markdown links
+
+```
+.\tools\clip-markdown-image-links.py .\assets\images\<subdir>
+```
+
 ## Delete unreferenced images
 
 Easier to download all images into a folder under assets\images\<folder>, write up the post, then run tools\delete-unreferenced-images.py to automatically delete the unreferenced images (they get moved to a temporary directory that's output to stdout).
 
 
-## Resize images
+## Convert HEIC files to jpg
 
-```
-sudo apt-get install imagemagick 
-mogrify -path . -resize 1024x768 *.jpg
-```
+Use this Python script: https://github.com/saschiwy/HeicConverter/blob/main/heicConverter.py
+CD into the directory with the HEIC files, and run the script from there.
+
 
 ## Fix image orientation
 
@@ -29,11 +47,6 @@ mogrify -path . -resize 1024x768 *.jpg
 sudo apt install imagemagick
 find . \( -iname '*.jpg' -o  -iname '*.png' \) -exec convert -auto-orient {} {} \;
 ```
-
-## Convert HEIC files to jpg
-
-Use this Python script: https://github.com/saschiwy/HeicConverter/blob/main/heicConverter.py
-CD into the directory with the HEIC files, and run the script from there.
 
 ## Order posts on the same day
 

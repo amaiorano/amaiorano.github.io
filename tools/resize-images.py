@@ -8,8 +8,8 @@ parser = argparse.ArgumentParser(
     description='Resizes images down to input dimensions while maintaining aspect ratio'
 )
 parser.add_argument('image_dir', help=f"path to image directory (e.g. {path.join('assets', 'images', 'mypost')})")
-parser.add_argument('--width', help=f"width", default=1024)
-parser.add_argument('--height', help=f"height", default=768)
+parser.add_argument('--width', help=f"width", type=int, default=1024)
+parser.add_argument('--height', help=f"height", type=int, default=768)
 args = parser.parse_args()
 
 img_dir = args.image_dir
