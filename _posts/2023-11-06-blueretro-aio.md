@@ -108,6 +108,7 @@ I did the same for the other side, and to hold everything in place, I inserted t
 ![](/assets/images/blueretro-aio/receiver/IMG_9224.jpg)
 
 ![](/assets/images/blueretro-aio/receiver/IMG_9223.jpg)
+(Note that the ESP32 board is actually inserted the wrong way in the pic above, as this was only temporary to solder in the sockets).
 
 I soldered the pins to the underside:
 
