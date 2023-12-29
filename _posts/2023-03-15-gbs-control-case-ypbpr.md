@@ -3,6 +3,7 @@ layout: post
 title: "gbs-control Case for YPbPr Out"
 tags: [Electronics, 3D-printing, gbs-control]
 comments: true
+toc: true
 ---
 
 In [my last post]({% post_url 2023-03-14-gbs-control-case-hdmi %}), I went over how I designed and built a case for my gbs-control used for up-scaling with HDMI output. This post will be about my second case, designed for the gbs-control I use for down-scaling/transcoding with RGB/YPbPr out.

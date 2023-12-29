@@ -3,6 +3,7 @@ layout: post
 title: "Making a gbs-control video scaler"
 tags: [Electronics, Mods, gbs-control]
 comments: true
+toc: true
 ---
 
 I've been playing most of my retro consoles on my 20" CRT, which has been great, but there are times - like when playing four-player [Micro Mages](http://morphcat.de/micromages/) on the NES - when you really want to play on a big screen. Unfortunately, older consoles like the NES output a 240p image, and newer TVs like my 70" 4K don't accept this low resolution signal. The fix is to use a scaler, like the [RetroTINK](https://www.retrotink.com/) or [OSSC](https://videogameperfection.com/products/open-source-scan-converter/) to scale up the resolution to at least 480p, but these always seemed a bit expensive. Then I watched [this video](https://youtu.be/1AVXhiTlmgo) from Voultar where he shows how to build a scaler for about $35 USD.
@@ -11,7 +12,7 @@ The project is called [gbs-control](https://github.com/ramapcsx2/gbs-control), a
 
 <p class="panel-note" markdown="1">UPDATE 2023-11-07: For a more in-depth install, check out my [more recent post on building a gbs-control]({% post_url 2023-11-07-gbs-control-take-2 %}).</p>
 
-## The Build
+## Parts
 
 I ordered the parts I needed:
 
@@ -20,6 +21,8 @@ I ordered the parts I needed:
 * Si5351A Clock Breakout Board (AliExpress $4 USD)
 * 0805 SMD 10uF caps (AliExpress $2 USD for 100 pcs)
 * VGA male to HDMI female converter (AliExpress $4.30 USD)
+
+## The Build
 
 Mostly following [Voultar's video](https://youtu.be/1AVXhiTlmgo), along with reading the official instructions on how to [build the hardware](https://github.com/ramapcsx2/gbs-control/wiki/Build-the-Hardware), it wasn't very hard to put this project together.
 

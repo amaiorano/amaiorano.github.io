@@ -3,6 +3,7 @@ layout: post
 title: "gbs-control - Take 2"
 tags: [Electronics, Mods, gbs-control]
 comments: true
+toc: true
 ---
 
 A while ago, I [wrote about]({% post_url 2022-04-01-gbs-control %}) how I built a [gbs-control](https://github.com/ramapcsx2/gbs-control) scaler. Although that post covers the basics, I mostly glossed over the details, expecting the reader to watch [Voultar's video](https://youtu.be/1AVXhiTlmgo). In this post, I'll go over how I built a second gbs-control in a lot more detail, which should help anyone who wants to build one, and who prefers a web page to a video.

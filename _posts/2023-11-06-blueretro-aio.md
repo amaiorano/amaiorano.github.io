@@ -3,23 +3,10 @@ layout: post
 title: "BlueRetro AIO"
 tags: [Electronics, BlueRetro, 3D-printing, NES, SNES, N64, GameCube, PS1, PS2]
 comments: true
+toc: true
 ---
 
 I love the [BlueRetro](https://github.com/darthcloud/BlueRetro) project, and on this blog, I've shown how I've made multiple [DIY HW1](https://github.com/darthcloud/BlueRetro/wiki#1---building-hardware-hw1) adapters for [different consoles](/tags/#BlueRetro) by soldering wires to DB25 connectors, and wrapping them up in DB25 shells. In this blog post, I'm going to cover a different way to make these adapters using PCBs and 3D-printed shells designed by [pmgducati](https://github.com/pmgducati) known as [BlueRetro AIO Units](https://github.com/pmgducati/Blue-Retro-AIO-Units).
-
-As this post is quite long, here are links to the different sections below:
-
-* [My Setup](#my-setup)
-* [Making BlueRetro AIO Units](#making-blueretro-aio-units)
-* [The Builds](#the-builds)
-  * [Receiver](#receiver)
-  * [N64](#n64)
-  * [GameCube](#gamecube)
-  * [PSX/PS2](#psxps2)
-  * [SNES - 2 Player](#snes---2-player)
-  * [SNES - Multitap](#snes---multitap)
-  * [NES](#nes)
-* [Thoughts](#thoughts)
 
 ## My Setup
 

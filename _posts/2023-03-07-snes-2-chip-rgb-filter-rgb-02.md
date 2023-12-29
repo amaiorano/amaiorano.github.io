@@ -3,6 +3,7 @@ layout: post
 title: "SNES 2-Chip RGB Filter Mod: SNS-CPU-RGB-02"
 tags: [Electronics, SNES]
 comments: true
+toc: true
 ---
 
 A few months ago, I posted about how I [modded my 2-chip SNES to improve the video output quality]({% post_url 2022-10-14-snes-2-chip-rgb-filter-mod %}). The mod was based off of [this post by Buttersoft](https://www.aussiearcade.com/topic/90003-snes-sfc-shvc-cpu-001-2-chip-rgb-filter-mod-video-fix/), which is for the `SHVC-CPU-01` revision of the SNES, and is exactly the model I have. In this post, I'm going to share how I helped someone get the same mod installed in their `SNS-CPU-RGB-02` SNES.
@@ -12,7 +13,6 @@ After my initial post, someone by the name of *axmccx* reached out, wanting to p
 With axmccx's permission, I'm going to share his pics of how to install this mod board on a `SNS-CPU-RGB-02`.
 
 ![](/assets/images/snes-2-chip-rgb-filter-rgb-02/1.jpeg)
-
 
 ## Parts
 

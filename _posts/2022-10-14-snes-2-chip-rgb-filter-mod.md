@@ -3,6 +3,7 @@ layout: post
 title: "SNES 2-Chip RGB Filter Mod"
 tags: [Electronics, SNES]
 comments: true
+toc: true
 ---
 
 I recently restored my childhood SNES, and although I was able to use a [custom cable I made]({% post_url 2022-09-29-multiout-custom-cable-take-2 %}) to output RGB, I knew that the video quality was not optimal. The reason for this is that my SNES is an older "2-chip" model, which produces a lower quality signal as compared to the later "1CHIP" models (see [this page](https://www.retrorgb.com/snesversioncompare.html) and [this one](https://consolemods.org/wiki/SNES:SNES_Model_Differences) for more details on the differences). Thankfully, there is a lesser-known mod to improve the 2-chip's video quality which I successfully installed and share in this post.

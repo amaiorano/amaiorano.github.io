@@ -3,6 +3,7 @@ layout: post
 title: "gbs-control Custom Component Cable"
 tags: [Electronics, Mods, gbs-control]
 comments: true
+toc: true
 ---
 
 A while ago, I put together the awesome [gbs-control]({% post_url 2022-04-01-gbs-control %}) scaler to allow me to scale up low-resolution signals from my old consoles, like the NES, SNES and PS1, to my modern TV. Well, the gbs-control isn't only an upscaler; it can maintain or even downscale input signals so that you can connect modern consoles to old 240p or 480i dipslays like CRTs. On top of that, the gbs-control features an experimental option that makes it output a YPbPr (aka "component") signal instead of RGB on its DB15 output connector. This is particularly interesting for me because my CRT has a component input, but no RGB input, so with the gbs-control, I should be able to connect my RGB-modded consoles to my CRT and enjoy the much higher quality signal. In this post, I go over how I made a cheap, custom cable to do exactly that.

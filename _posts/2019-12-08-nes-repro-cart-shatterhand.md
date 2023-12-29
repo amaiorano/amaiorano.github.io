@@ -3,6 +3,7 @@ layout: post
 title: "My first NES Repro Cart: Shatterhand"
 tags: [Electronics, Mods, NES]
 comments: true
+toc: true
 ---
 
 There are a few games that I really want for my NES, but they are just too expensive. Shatterhand is one of these games, and it easily sells for anywhere between $60 to $130 USD. I knew about reproduction carts, and that they sold for less, so I started wondering whether I could just make my own. I stumbled upon [this great guide](https://thepoorstudenthobbyist.com/2017/06/25/how-to-make-an-nes-reproduction-cartridge/) by The Poor Student Hobbyist, and decided to go for it.

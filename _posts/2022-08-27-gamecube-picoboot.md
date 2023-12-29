@@ -3,6 +3,7 @@ layout: post
 title: "GameCube PicoBoot with Custom SD2SP2"
 tags: [Electronics, Mods, GameCube]
 comments: true
+toc: true
 ---
 
 Recently in the modding community, there's been a lot of buzz around a really cool mod by [@webhdx](https://github.com/webhdx) known as [PicoBoot](https://github.com/webhdx/PicoBoot). This project uses the inexpensive Rasberry Pi Pico as a mod chip for the GameCube, allowing one to run games and homebrew from media such as an SD card. In this post, I cover how I restored a GameCube that I bought on Marketplace, installed a custom SD adapter to make up for the lack of a serial port 2 on this model, and finally, how I installed this awesome PicoBoot mod.

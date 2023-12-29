@@ -3,9 +3,12 @@ layout: post
 title: "N64/SNES Custom Cable - Take 2"
 tags: [Electronics, SNES, N64]
 comments: true
+toc: true
 ---
 
-A few months ago, I [wrote about]({% post_url 2022-06-22-n64-rgb-mod-and-custom-cable %}#custom-rgb-to-15-khz-vga-cable) how I made a custom cable to hook up my N64 to my gbs-control. Although the VGA + Audio end worked out fine, I wasn't super happy with the multiout end. I had made a bunch of mistakes:
+A few months ago, I [wrote about]({% post_url 2022-06-22-n64-rgb-mod-and-custom-cable %}#custom-rgb-to-15-khz-vga-cable) how I made a custom cable to hook up my N64 to my gbs-control. Although the VGA + Audio end worked out fine, I wasn't super happy with the multiout end. I had made a bunch of mistakes. In this post, I go over the mistakes I made, and how I improved on these on this second try.
+
+## Mistakes
 
 Mistake #1: I had cut the RGB wires too short because I knew I'd need to solder the 220uF caps in between them and the multiout pins. As a result, these pins got disconnected too easily once some strain was put on the cable:
 

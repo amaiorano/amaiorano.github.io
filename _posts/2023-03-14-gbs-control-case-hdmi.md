@@ -3,6 +3,7 @@ layout: post
 title: "gbs-control Case for HDMI Out"
 tags: [Electronics, 3D-printing, gbs-control]
 comments: true
+toc: true
 ---
 
 A little while ago, I [built a gbs-control]({%post_url 2022-04-01-gbs-control %}) to up-scale up video signals from my old consoles to my LCD TV. I eventually built a second one to use as a down-scaler/transcoder to my CRT, and [made a custom cable for it]({%post_url 2022-12-30-gbs-control-db15-to-ypbpr-cable %}). The final missing touch for both these projects was a nice case. In this first post, I'll go over how I designed, printed, and assembled a case for the HDMI out gbs-control. My next post will cover the second case.

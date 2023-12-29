@@ -3,6 +3,7 @@ layout: post
 title: "NES Restoration"
 tags: [Electronics, NES]
 comments: true
+toc: true
 ---
 
 I bought a NES for $20 on Marketplace. The seller said it wasn't working well. I tested it, and sure enough I got the blinking screen most of the time. But with some fiddling, I managed to get a game working, so I knew it just needed a good cleaning and restoration. In this post, I go over the process of restoring this NES.

@@ -3,6 +3,7 @@ layout: post
 title: "Genesis Vectrex Controller"
 tags: [Electronics, Mods, Vectrex]
 comments: true
+toc: true
 ---
 
 I've owned my [Vectrex](https://en.wikipedia.org/wiki/Vectrex) since I was a kid, and it's an awesome system, but it only came with one built-in controller, so I could never play two-player games. I looked into buying a second controller, but it turns out it's extremely expensive, costing anywhere from $150 to $400 USD, at least on eBay! Another option is to buy a [VecAdapt](https://www.tindie.com/products/OmberTech/vecadapt-vectrex-to-sega-controller-adapter/), which can be used to connect a Genesis controller without alteration to the Vectrex. This looks like an excellent product, but it would cost me around $45 USD, which isn't that bad, but I figured it would be way more fun to make my own.
@@ -168,6 +169,6 @@ But, after a little while, I noticed that when pressing down on the dpad, the Ve
 After this, I had no more issues; however, in retrospect, I'm not sure this was necessary. I realized when closing up the controller again that I had not properly tightened the screws in the casing the firs time around, and I think that allowed the dpad rocker to shift more than usual, bridging the two sides together. In any case, I've since played with the controller many times without any problem.
 
 
-## Summary
+## Thoughts
 
 Overall, I'm thrilled with the results. I learned a lot, and am super glad to have a second controller. My son and I have had a blast playing Blitz!, Space War, and Rip Off together. If you're a little handy with electronics, I definitely recommend giving this mod a try.
