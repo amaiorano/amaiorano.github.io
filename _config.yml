@@ -37,6 +37,7 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-toc
 
 show_excerpts: true
 google_analytics: UA-NNNNNNNN-N
