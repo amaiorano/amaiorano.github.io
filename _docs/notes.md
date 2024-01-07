@@ -51,3 +51,8 @@ find . \( -iname '*.jpg' -o  -iname '*.png' \) -exec convert -auto-orient {} {} 
 ## Order posts on the same day
 
 Add a 'date' field to the front matter, set the correct date, but for the time, set 12:00:0n and make n = 0, 1, 2, etc.
+
+
+## Public drafts (to share for review)
+
+I modified home.html to not display posts if "draft" is set to true in the page's front matter.
