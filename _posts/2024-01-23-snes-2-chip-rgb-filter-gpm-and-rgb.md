@@ -91,7 +91,7 @@ Next, he replaced the twelve 10uF ceramic caps at the following locations:
 
 ![](/assets/images/snes-2-chip-rgb-filter-gpm-and-rgb/rgb_mainboard_filter_caps.jpg)
 
-Above, we can also see that the 5V supply for the PCB is connected to the right of C63, while ground is connected to the left of C64. Also, the 10uF cap that between R9 and C10 is actually floating - there are no pads to solder to:
+Above, we can also see that the 5V supply for the PCB is connected to the right of C63, while ground is connected to the left of C64. Also, the 10uF cap that sits between R9 and C10 is actually floating - there are no pads to solder to:
 
 ![](/assets/images/snes-2-chip-rgb-filter-gpm-and-rgb/rgb_floating_cap.jpg)
 
