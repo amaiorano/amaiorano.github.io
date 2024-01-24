@@ -16,12 +16,12 @@ A while back, I posted about how I [modded my 2-chip SNES]({% post_url 2022-10-1
 The list of parts is about the same as for the [`SHVC-CPU-01`]({% post_url 2022-10-14-snes-2-chip-rgb-filter-mod %}#parts), with these differences/extras:
 
 * Cap Kit - $4.95 on [Console5](https://console5.com/store/snes-cap-kit-non-shvc-models.html)
-* 5V 2A linear voltage regulator - ~$1.10 each from Mouser
+* 35V In 5V Out 2A linear voltage regulator - ~$1.10 each from Mouser
 * 470uF 6.3V electrolytic capacitor - $1.21 for 10 on AliExpress
 * 1x 22uF X5R 0805 ceramic caps - $2.90 for 100 on AliExpress
 * 11x 10uf X7R 0805 ceramic caps (instead of 8x) - $1.80 for 100 on AliExpress
 
-Note that the voltage regulator is difficult to find as they are no longer in production. Look on Mouser, Digikey, eBay, or AliExpress, and make sure it's rated for 2A - most are 0.5A or 1A.
+Note that the voltage regulator is difficult to find as they are no longer in production. Look on Mouser, Digikey, eBay, or AliExpress, and make sure it's rated for 2A - most are 0.5A or 1A, and also rated for 35V input - most are 6.5V. The higher voltage rating means it runs cooler.
 
 
 ### The Build
@@ -73,7 +73,7 @@ As usual, get the parts listed for the [`SHVC-CPU-01`]({% post_url 2022-10-14-sn
 * 1x 22uF X5R 0805 ceramic caps - $2.90 for 100 on AliExpress
 * 12x 10uf X7R 0805 ceramic caps (instead of 8x) - $1.80 for 100 on AliExpress
 
-Unlike the `SHVC-CPU` and `SNS-CPU-RGB` models, we need to leave the 3 transistors on the main board, which is why 3 more need to be bought.
+Unlike the `SHVC-CPU` and `SNS-CPU-GPM` models, we need to leave the 3 transistors on the main board, which is why 3 more need to be bought.
 
 ### The Build
 
@@ -91,9 +91,13 @@ Next, he replaced the twelve 10uF ceramic caps at the following locations:
 
 ![](/assets/images/snes-2-chip-rgb-filter-gpm-and-rgb/rgb_mainboard_filter_caps.jpg)
 
-Above, we can also see that the 5V supply for the PCB is connected to the right of C63, while ground is connected to the left of C64.
+Above, we can also see that the 5V supply for the PCB is connected to the right of C63, while ground is connected to the left of C64. Also, the 10uF cap that between R9 and C10 is actually floating - there are no pads to solder to:
 
-As with the `SNS-CPU-GPM`, Toxic_Tripod0 replaced the voltage regulator:
+![](/assets/images/snes-2-chip-rgb-filter-gpm-and-rgb/rgb_floating_cap.jpg)
+
+Toxic_Tripod0 used a wire to bridge the gap between the two locations, as the cap is too small. If you have a 1206 10uF capacitor, it might fit better. The reason for this capacitor is that on the schematics for the `SHVC-CPU` model, there is a filter cap between the green line at that point and ground, but this cap is missing from the `SNS-CPU-RGB` models entirely.
+
+As with the `SNS-CPU-GPM`, he then replaced the voltage regulator:
 
 ![](/assets/images/snes-2-chip-rgb-filter-gpm-and-rgb/voltage_reg.jpg)
 
