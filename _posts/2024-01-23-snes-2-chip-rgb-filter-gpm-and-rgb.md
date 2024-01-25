@@ -100,7 +100,7 @@ As with the `SNS-CPU-GPM`, he then replaced the voltage regulator:
 
 ![](/assets/images/snes-2-chip-rgb-filter-gpm-and-rgb/voltage_reg.jpg)
 
-On the underside of the board, where the three pins of the voltage regulator are soldered, he added a 470uF electrolytic capacitor on the 5V and GND pins of the regulator, and also replaced the 1uF ceramic cap at C81 with a 22uF X5R:
+On the underside of the board, where the three pins of the voltage regulator are soldered, he added a 470uF electrolytic capacitor on the 5V and GND pins of the regulator, and also replaced the 1uF ceramic cap at C61 with a 22uF X5R:
 
 ![](/assets/images/snes-2-chip-rgb-filter-gpm-and-rgb/rgb_mainboard_voltage_reg_filter.jpg)
 
