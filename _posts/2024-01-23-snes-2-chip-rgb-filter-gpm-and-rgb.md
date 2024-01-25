@@ -4,7 +4,6 @@ title: "SNES 2-Chip RGB Filter Mod: SNS-CPU-GPM and SNS-CPU-RGB"
 tags: [Electronics, SNES]
 comments: true
 toc: true
-draft: true
 ---
 
 A while back, I posted about how I [modded my 2-chip SNES]({% post_url 2022-10-14-snes-2-chip-rgb-filter-mod %}), model `SHVC-CPU-01`, to improve the video output quality using [Buttersoft's filter board](https://www.aussiearcade.com/topic/90003-snes-sfc-shvc-cpu-001-2-chip-rgb-filter-mod-video-fix/), then later posted how user [*axmcxx* performed a similar mod]({% post_url 2023-03-07-snes-2-chip-rgb-filter-rgb-02 %}) on his `SNS-CPU-RGB-02`. Well, another user on the [ConsoleMods](https://consolemods.org/wiki/Main_Page) Discord named *Toxic_Tripod0* reached out after modding various `SNS-CPU-GPM-01/02` models, and graciously shared his pics and steps with me so that I can share it with the community on my blog. He also performed this mod on `SNS-CPU-RGB-01/02` models, and we'll go over some of the improvements he made for these.
