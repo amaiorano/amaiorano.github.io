@@ -16,8 +16,8 @@ A while back, I posted about how I [modded my 2-chip SNES]({% post_url 2022-10-1
 The list of parts is about the same as for the [`SHVC-CPU-01`]({% post_url 2022-10-14-snes-2-chip-rgb-filter-mod %}#parts), with these differences/extras:
 
 * Cap Kit - $4.95 on [Console5](https://console5.com/store/snes-cap-kit-non-shvc-models.html)
-* 470uF 6.3V electrolytic capacitor - included in the Console5 cap kit, or $1.21 for 10 on AliExpress
 * 35V In 5V Out 2A linear voltage regulator - ~$1.10 each from Mouser
+* 470uF 6.3V electrolytic capacitor - included in the Console5 cap kit, or $1.21 for 10 on AliExpress
 * 1x 22uF X5R 0805 ceramic caps - $2.90 for 100 on AliExpress
 * 11x 10uf X7R 0805 ceramic caps (instead of 8x) - $1.80 for 100 on AliExpress
 
@@ -38,11 +38,11 @@ Next, he stacked the eleven 10uF ceramic caps on top of the existing ones at the
 
 In the picture above, we can also see that the 5V supply for the PCB is connected to the right-hand side of C83, while the board's ground is connected to the top of C91.
 
-Here is where we diverge from the previous posts. The original voltage regular is known to produce enough noise or ripple that it can result in a single thick white line across the screen. To address this, Toxic_Tripod0 replaced the regulator with a new one:
+Here is where we diverge from the previous posts. The original voltage regular is known to produce enough noise or ripple that it can result in a single thick white vertical line across the screen. To address this, Toxic_Tripod0 replaced the regulator with a new one:
 
 ![](/assets/images/snes-2-chip-rgb-filter-gpm-and-rgb/voltage_reg.jpg)
 
-Finding a new regulator can be difficult, so another option is to add a 470uF electrolytic capacitor between the 5V and GND pins of the regulator. Although not really necessary, seeing as he had replaced the regulator, Toxic_Tripod0 installed one anyway, since it was included in the Console5 kit. He also replaced the 0.1uF ceramic cap at C81 with a 22uF X5R:
+Finding a new regulator can be difficult, so another option, [as described on RetroRGB](https://www.retrorgb.com/snesverticalline.html), is to add a 470uF electrolytic capacitor between the 5V and GND pins of the regulator, and to replace the 1uF cap next to it with a 22uF one. Toxic_Tripod0 had already replaced the regulator, so doing this mod was not really necessary, but since the Console5 cap kit came with the 470uF cap, he went ahead and did it anyway:
 
 ![](/assets/images/snes-2-chip-rgb-filter-gpm-and-rgb/gpm_mainboard_voltage_reg_filter.jpg)
 
@@ -68,7 +68,7 @@ As I've already covered [*axmcxx*'s mod of a `SNS-CPU-RGB-02`](({% post_url 2023
 As usual, get the parts listed for the [`SHVC-CPU-01`]({% post_url 2022-10-14-snes-2-chip-rgb-filter-mod %}#parts), with these differences/extras:
 * Cap Kit - $4.95 on [Console5](https://console5.com/store/snes-cap-kit-non-shvc-models.html)
 * 3x extra transistors (2SA1037AKT146Q) - $0.30 each from [Digikey](https://www.digikey.com/en/products/detail/rohm-semiconductor/2SA1037AKT146Q/650439)
-* 5V 2A linear voltage regulator - ~$1.10 each from Mouser
+* 35V In 5V Out 2A linear voltage regulator - ~$1.10 each from Mouser
 * 470uF 6.3V electrolytic capacitor - included in the Console5 cap kit, or $1.21 for 10 on AliExpress
 * 1x 22uF X5R 0805 ceramic caps - $2.90 for 100 on AliExpress
 * 12x 10uf X7R 0805 ceramic caps (instead of 8x) - $1.80 for 100 on AliExpress
@@ -101,7 +101,7 @@ As with the `SNS-CPU-GPM`, he then replaced the voltage regulator:
 
 ![](/assets/images/snes-2-chip-rgb-filter-gpm-and-rgb/voltage_reg.jpg)
 
-On the underside of the board, where the three pins of the voltage regulator are soldered, he added a 470uF electrolytic capacitor on the 5V and GND pins of the regulator, and also replaced the 0.1uF ceramic cap at C81 with a 22uF X5R:
+On the underside of the board, where the three pins of the voltage regulator are soldered, he added a 470uF electrolytic capacitor on the 5V and GND pins of the regulator, and also replaced the 1uF ceramic cap at C81 with a 22uF X5R:
 
 ![](/assets/images/snes-2-chip-rgb-filter-gpm-and-rgb/rgb_mainboard_voltage_reg_filter.jpg)
 
@@ -124,8 +124,8 @@ I thought it might be useful to summarize all the mods made along with what they
 | Installing the filter board                         | Reduces blur and ghosting in video output.                                                                                                                     |
 | Replacing/stacking 10uF ceramic caps                | Further helps in reducing noise in video output.                                                                                                               |
 | Replacing voltage regulator                         | Helps reduce thick white line across the screen, as well as jailbars. Also runs less hot, so may prolong lifetime of caps underneath the regulator's heatsink. |
-| 470uF cap on voltage regulator                      | Can be used instead of replacing the original voltage regulator, though less effective.                                                                                               |
-| Replacing 0.1uF cap with 22uF cap next to regulator | Further helps in reducing the thick white line across the screen.                                                                                              |
+| 470uF cap on voltage regulator                      | Can be used instead of replacing the original voltage regulator, though less effective.                                                                        |
+| Replacing 1uF cap with 22uF cap next to regulator   | Further helps in reducing the thick white line across the screen.                                                                                              |
 | Lifting pin 3 on PPU2                               | Reduces diagonal lines. NOTE: composite and s-video output lose their color signal.                                                                            |
 | Lifting pin 27 on PPU2                              | Most effective at reducing jailbars.                                                                                                                           |
 
