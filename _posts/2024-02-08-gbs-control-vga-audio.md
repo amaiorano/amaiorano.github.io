@@ -4,7 +4,6 @@ title: "Adding \"VGA Audio\" to my gbs-controls"
 tags: [Electronics, gbs-control]
 comments: true
 toc: true
-draft: true
 ---
 
 In my recent post about my build of the [SNES2VGA dongle]({%- post_url 2024-02-05-snes2vga -%}), I mentioned how the dongle exposes the stereo audio signal in two ways: from the headphone jack, as well as via two unused pins on the VGA port, which I'm dubbing *VGA audio*. In this post, I'll share how I modified my two gbs-controls to extract these audio signals from the DB15 port.
