@@ -106,11 +106,19 @@ Here's a side shot:
 
 ![](/assets/images/gbs-control-vga-audio/IMG_4628.jpg)
 
-And with that, I was done! I gave it a test, and it worked perfectly:
+And with that, I was done!
+
+## Testing
+
+I gave it a test, and it worked perfectly:
 
 ![](/assets/images/gbs-control-vga-audio/IMG_4631.jpg)
 
 ![](/assets/images/gbs-control-vga-audio/IMG_4630.jpg)
+
+Of course, you can't hear it working in the screenshots above, so I uploaded this video to demonstrate:
+
+{% include youtubePlayer.html id="FZWvgsRre5o" %}
 
 I then did pretty much the same thing on my other gbs-control, the one with YPbPr outputs:
 
