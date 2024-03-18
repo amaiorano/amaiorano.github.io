@@ -67,6 +67,21 @@ So now, I could simply wire up a LED with one end connected to D7 (with a resist
 
 ![](/assets/images/gbs-control-case-hdmi/NodeMCUStatusLED.jpg)
 
+## Parts
+
+Here are all the parts I needed to build this:
+
+* A fully assembled gbs-control with the Node MCU positioned along the edge - see [my post here]({%post_url 2023-11-07-gbs-control-take-2 %}).
+* [VGA to HDMI adapter](https://www.aliexpress.com/item/1005006132639628.html?spm=a2g0o.order_list.order_list_main.9.bcee1802cJk4Od)
+* A green LED
+* 100 ohm throughole resistor for the LED
+* [#4 x 3/8" wood screws (846-020)](https://www.homedepot.ca/product/paulin--4-x-3-8-in-flat-head-square-drive-steel-wood-screw-zinc-plated-36pcs/1000111448) - 8x total: 4 to attach the GBS to the case, 2 to attach the HDMI cradle clamp, and 2 to attach the back plate to the case.
+* [#4 x 1/2" wood screws (197-543)](https://www.homedepot.ca/product/paulin--4-x-1-2-in-flat-head-square-drive-steel-wood-screws-zinc-plated-100pcs/1000140508) - 2x to attach the HDMI cradle to the back plate
+* [Momentary button](https://www.aliexpress.com/item/1005004981102542.html?spm=a2g0o.detail.pcDetailTopMoreOtherSeller.1.3d89zHEKzHEKYZ&gps-id=pcDetailTopMoreOtherSeller&scm=1007.40050.354490.0&scm_id=1007.40050.354490.0&scm-url=1007.40050.354490.0&pvid=9d5d6ce7-8a53-4661-9869-6adfbca9416d&_t=gps-id:pcDetailTopMoreOtherSeller,scm-url:1007.40050.354490.0,pvid:9d5d6ce7-8a53-4661-9869-6adfbca9416d,tpp_buckets:668%232846%238114%231999&pdp_npi=4%40dis%21CAD%213.35%213.35%21%21%212.42%212.42%21%40210324bf17107096935908219ed310%2112000031234910673%21rec%21CA%211901445408%21&utparam-url=scene%3ApcDetailTopMoreOtherSeller%7Cquery_from%3A) - the "hole diameter" must be 10mm. The ones I bought were from a local store, but I've linked one on AliExpress that I think should work.
+* [2x RCA female socket connectors](https://www.aliexpress.com/item/32881798201.html?spm=a2g0o.productlist.main.33.4f0cl7vll7vlJa&algo_pvid=56eebe06-c531-4ef8-8fda-47215237acea&algo_exp_id=56eebe06-c531-4ef8-8fda-47215237acea-16&pdp_npi=4%40dis%21CAD%212.34%212.34%21%21%211.69%211.69%21%402101cff817107114166446475eae09%2165605658345%21sea%21CA%211901445408%21&curPageLogUid=zesdXab8gyOe&utparam-url=scene%3Asearch%7Cquery_from%3A) - the "hole diameter" should be 5.6mm. The ones I used in this post are actually larger, but I've updated my design to fit the more commonly available connectors from AliExpress that I've linked here.
+* 4x rubber feet to stick underneath the case
+* [3D printed case](https://github.com/amaiorano/gbs-control-case)
+
 ## The Build
 
 As a novice to 3D printing and designing, I spent a fair bit of time iterating and printing tests to make sure everything fit:

@@ -26,6 +26,19 @@ Having made the back panel a separate piece in my original design, all I had to 
 
 I decided to label each of the RCA output holes because finding RCA jacks of the right color isn't easy.
 
+## Parts
+
+Here are all the parts I needed to build this:
+
+* A fully assembled gbs-control with the Node MCU positioned along the edge - see [my post here]({%post_url 2023-11-07-gbs-control-take-2 %}).
+* A green LED
+* 100 ohm throughole resistor for the LED
+* [#4 x 3/8" wood screws (846-020)](https://www.homedepot.ca/product/paulin--4-x-3-8-in-flat-head-square-drive-steel-wood-screw-zinc-plated-36pcs/1000111448) - 6x total: 4 to attach the GBS to the case, and 2 to attach the back plate to the case.
+* [Momentary button](https://www.aliexpress.com/item/1005004981102542.html?spm=a2g0o.detail.pcDetailTopMoreOtherSeller.1.3d89zHEKzHEKYZ&gps-id=pcDetailTopMoreOtherSeller&scm=1007.40050.354490.0&scm_id=1007.40050.354490.0&scm-url=1007.40050.354490.0&pvid=9d5d6ce7-8a53-4661-9869-6adfbca9416d&_t=gps-id:pcDetailTopMoreOtherSeller,scm-url:1007.40050.354490.0,pvid:9d5d6ce7-8a53-4661-9869-6adfbca9416d,tpp_buckets:668%232846%238114%231999&pdp_npi=4%40dis%21CAD%213.35%213.35%21%21%212.42%212.42%21%40210324bf17107096935908219ed310%2112000031234910673%21rec%21CA%211901445408%21&utparam-url=scene%3ApcDetailTopMoreOtherSeller%7Cquery_from%3A) - the "hole diameter" must be 10mm. The ones I bought were from a local store, but I've linked one on AliExpress that I think should work.
+* [7x RCA female socket connectors](https://www.aliexpress.com/item/32881798201.html?spm=a2g0o.productlist.main.33.4f0cl7vll7vlJa&algo_pvid=56eebe06-c531-4ef8-8fda-47215237acea&algo_exp_id=56eebe06-c531-4ef8-8fda-47215237acea-16&pdp_npi=4%40dis%21CAD%212.34%212.34%21%21%211.69%211.69%21%402101cff817107114166446475eae09%2165605658345%21sea%21CA%211901445408%21&curPageLogUid=zesdXab8gyOe&utparam-url=scene%3Asearch%7Cquery_from%3A) - the "hole diameter" should be 5.6mm. In this post, I used 2 larger ones for the front, but I've since updated my design so that the 2 in the front panel, and the 5 in the back panel, are all the same size.
+* 4x rubber feet to stick underneath the case
+* [3D printed case](https://github.com/amaiorano/gbs-control-case)
+
 ## The Build
 
 This process went smoother than the for the HDMI case. The one hitch was that I had two versions of the gbs board, a V4 and a V5, and I didn't realize that they weren't exactly the same size. I had to make the case a little smaller for the V4 used in this build. But apart from that, it was pretty smooth sailing.
