@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SFC Controller 8BitDo Mod Kit"
-tags: [Electronics, Mods, gbs-control]
+tags: [Electronics, Mods, SNES]
 comments: true
 toc: true
 ---
