@@ -27,7 +27,7 @@ Note that the voltage regulator is difficult to find as they are no longer in pr
 
 Toxic_Tripod0 took apart his SNES, and then recapped it using a capacitor kit from Console5. He recommends this, especially after seeing that upon removal, most caps had leaked underneath. Leaking capacitors indicates that they are no longer working optimally, which not only affect their performance, but can erode and cause damage to the main board. Unfortunately, I don't have any pics of the recap, but Console5 provides excellent documentation and images to follow.
 
-Next, he followed the [steps on my first post](({% post_url 2022-10-14-snes-2-chip-rgb-filter-mod %}#the-build)) on how to populate the filter board PCB. As with the `SHVC-CPU-01`, he removed and transferred the 3 transistors - this time at locations Q3, Q4, and Q5 - to the PCB, and wired them up:
+Next, he followed the [steps on my first post](({% post_url 2022-10-14-snes-2-chip-rgb-filter-mod %}#the-build)) on how to populate the filter board PCB. As with the `SHVC-CPU-01`, he removed and transferred the 3 transistors - this time at locations Q3, Q7, and Q5 - to the PCB, and wired them up:
 
 ![](/assets/images/snes-2-chip-rgb-filter-gpm-and-rgb/gpm_mainboard_rgb_wiring.jpg)
 
